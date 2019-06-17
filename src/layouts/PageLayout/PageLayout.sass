@@ -1,0 +1,32 @@
+$primary-color: #86BC42
+$text-color: #49575F
+
+header
+  background-color: #FFF
+  box-shadow: 3px 0 8px rgba(0,0,0, 0.3)
+  position: fixed
+  width: 100%
+
+  .navbar-brand
+    color: $primary-color !important
+
+  .nav-link
+    color: $text-color
+    text-transform: uppercase
+
+    &:hover
+      color: $primary-color
+
+  .active
+    color: $primary-color
+    font-weight: bold
+    
+  
+  .navbar-collapse
+    flex-basis: 100%
+    @media (min-width: 992px)
+      flex-basis: auto
+
+
+  
+
